@@ -75,13 +75,13 @@ class Register extends Component {
                 <label htmlFor="">이름</label>
                 <input type="text" onChange={(e) => this.onChangeName(e)} />
                 <label htmlFor="">비밀번호</label>
-                <input type="text" onChange={(e) => this.onChangePw(e)} />
+                <input type="password" onChange={(e) => this.onChangePw(e)} />
               </div>
               <div>
                 <label htmlFor="">아이디</label>
                 <input type="text" onChange={(e) => this.onChangeId(e)} />
                 <label htmlFor="">비밀번호 확인</label>
-                <input type="text" onChange={(e) => this.onChangePw2(e)} />
+                <input type="password" onChange={(e) => this.onChangePw2(e)} />
               </div>
             </div>
             <button onClick={() => this.onRegister()}>SIGN UP</button>

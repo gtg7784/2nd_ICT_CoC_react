@@ -60,7 +60,7 @@ class Login extends Component {
             <img src={icon} alt=""/>
             <h1>LOGIN</h1>
             <input type="text" placeholder="ID" onChange={(e) => this.onChangeId(e)} />
-            <input type="text" placeholder="PW" onChange={(e) => this.onChangePw(e)} />
+            <input type="password" placeholder="PW" onChange={(e) => this.onChangePw(e)} />
             <button onClick={() => this.onLogin()}>LOGIN</button>
             <Link to="/signup">Do not have account?</Link>
           </div>
