@@ -8,6 +8,8 @@ import styles from './App.scss';
 import Header from 'components/Header/Header'
 
 import Main from 'containers/Main/Main'
+import Login from 'containers/Login/Login'
+import Register from 'containers/Register/Register'
 
 const cx = classnames.bind(styles)
 
@@ -26,9 +28,9 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route path='/' exact component={Main}/>
-          {/* <Route path='/reservation' exact component={Reservation}/>
-          <Route path='/complete' exact component={Complete}/>
-          <Route component={NotFound}/> */}
+          <Route path='/signin' exact component={Login}/>
+          <Route path='/signup' exact component={Register}/>
+          {/* <Route component={NotFound}/> */}
         </Switch>
       </div>
     );

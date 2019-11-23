@@ -46,7 +46,7 @@ class Header extends React.Component{
               <Link>ABOUT</Link>
             </li>
             <li>
-              <Link>SIGN IN</Link>
+              <Link to='signin'>SIGN IN</Link>
             </li>
             <li>
               <input type="text" onChange={(e) => this.onSearch(e)} /> 

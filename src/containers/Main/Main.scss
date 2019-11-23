@@ -37,7 +37,7 @@
           margin: 37px 0px 0px 78px;
         }
 
-        & > div{
+        & > label{
           width: 174px;
           height: 174px;
           border-radius: 87px;
@@ -60,6 +60,14 @@
           color: #ffffff;
           border: none;
           margin: 25px 187px 0px 0px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+        }
+
+        & > input[type=file]{
+          display: none;
         }
       }
     }
@@ -82,9 +90,9 @@
         right: 120px;
 
         & > select{
-          width: 104px;
-          height: 42px;
-          border-radius: 20px;
+          width: 150px;
+          height: 50px;
+          border-radius: 24px;
           background-color: #328fff;
           border: none;
           appearance: none !important;
